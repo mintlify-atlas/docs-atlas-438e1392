@@ -1,0 +1,178 @@
+{
+  "projectType": "framework",
+  "projectName": "Sanity Studio",
+  "projectDescription": "An open-source, customizable content management framework with real-time collaboration and structured content.",
+  "theme": "palm",
+  "primaryColor": "#F03E2F",
+  "lightColor": "#F9685D",
+  "darkColor": "#C52F22",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart",
+              "configuration"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "core-concepts/overview",
+              "core-concepts/schemas",
+              "core-concepts/documents",
+              "core-concepts/queries",
+              "core-concepts/real-time"
+            ]
+          },
+          {
+            "group": "Building with Sanity",
+            "pages": [
+              "guides/create-schema",
+              "guides/custom-components",
+              "guides/form-builder",
+              "guides/portable-text",
+              "guides/asset-management"
+            ]
+          },
+          {
+            "group": "Plugins",
+            "pages": [
+              "plugins/overview",
+              "plugins/creating-plugins",
+              "plugins/plugin-api",
+              "plugins/built-in-plugins"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "tools/structure-tool",
+              "tools/presentation-tool",
+              "tools/vision",
+              "tools/custom-tools"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/authentication",
+              "advanced/validation",
+              "advanced/mutations",
+              "advanced/deployment",
+              "advanced/performance"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Configuration",
+            "pages": [
+              "api/define-config",
+              "api/workspace-config",
+              "api/schema-config"
+            ]
+          },
+          {
+            "group": "Plugins",
+            "pages": [
+              "api/define-plugin",
+              "api/plugin-types"
+            ]
+          },
+          {
+            "group": "Schema Types",
+            "pages": [
+              "api/schema-types/document",
+              "api/schema-types/object",
+              "api/schema-types/fields",
+              "api/schema-types/validation"
+            ]
+          },
+          {
+            "group": "Hooks",
+            "pages": [
+              "api/hooks/use-client",
+              "api/hooks/use-document-operation",
+              "api/hooks/use-form",
+              "api/hooks/use-preview"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "api/components/form-components",
+              "api/components/preview-components",
+              "api/components/studio-components"
+            ]
+          },
+          {
+            "group": "Structure Builder",
+            "pages": [
+              "api/structure/structure-builder",
+              "api/structure/list-items",
+              "api/structure/document-views"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "CLI",
+        "groups": [
+          {
+            "group": "CLI Reference",
+            "pages": [
+              "cli/overview",
+              "cli/init",
+              "cli/dev",
+              "cli/build",
+              "cli/deploy",
+              "cli/typegen"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "React-based customizable content management framework",
+    "Real-time collaborative editing",
+    "Schema-driven content modeling with TypeScript support",
+    "Extensive plugin architecture for customization",
+    "GROQ query language for flexible content retrieval",
+    "Portable Text for structured rich text content",
+    "Built-in asset management and image transformation",
+    "Structure Tool for organizing content workspaces",
+    "Form Builder with custom input components",
+    "Live preview and visual editing with Presentation Tool"
+  ],
+  "publicApiSurface": [
+    "defineConfig()",
+    "definePlugin()",
+    "defineType()",
+    "defineField()",
+    "defineArrayMember()",
+    "structureTool()",
+    "presentationTool()",
+    "visionTool()",
+    "useClient()",
+    "useDocumentOperation()",
+    "useFormValue()",
+    "useSchema()",
+    "createSchema()",
+    "Rule (validation)",
+    "StructureBuilder API",
+    "Custom Input Components",
+    "Document Actions",
+    "Document Badges",
+    "CLI commands (init, dev, build, deploy, typegen)"
+  ]
+}
